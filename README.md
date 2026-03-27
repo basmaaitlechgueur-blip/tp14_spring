@@ -40,15 +40,17 @@ chmod +x scripts/*.sh
 ```
 
 ### Démarrer l'application
-```bash
+---
+
 ./scripts/run.sh
+---
 
 <img width="1920" height="133" alt="Screenshot (1209)" src="https://github.com/user-attachments/assets/006ba077-0431-4087-a7fc-022261a5dd00" />
 
 ---
 
 ### Vérifier les logs
-```bash
+
 ./scripts/logs.sh
 
 <img width="1920" height="682" alt="Screenshot (1211)" src="https://github.com/user-attachments/assets/b01e72c9-29c1-42ab-a452-920004c718bd" />
@@ -74,7 +76,7 @@ http://localhost:8085
 ```
 
 ### Vérifier la disponibilité du service
-```bash
+
 ./scripts/healthcheck.sh
 # Résultat attendu : Service OK (HTTP 200)
 <img width="1920" height="222" alt="Screenshot (1215)" src="https://github.com/user-attachments/assets/61647d8a-b952-4a4e-8de2-d42aaf648358" />
